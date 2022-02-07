@@ -57,7 +57,7 @@ const Signup = () => {
         },
       };
       const { data } = await axios.post(
-        `/api/user`,
+        `https://chatappdema.herokuapp.com/api/user`,
         {
           name,
           email,
