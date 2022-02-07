@@ -14,7 +14,7 @@ import animationData from "../animations/typing.json";
 
 import io from "socket.io-client";
 import UpdateGroupChatModal from "./miscellaneous/UpdateGroupChatModal";
-const ENDPOINT = "https://chatappdema.herokuapp.com";
+const ENDPOINT = "https://chatappdema.herokuapp.com/";
 var socket, selectedChatCompare;
 
 const SingleChat = ({
